@@ -49,7 +49,8 @@ Building with React, Flutter & Django | Always learning*
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamal-Dhital&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamal-Dhital&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=5" alt="Top Languages" />
+
 
 </div>
 
@@ -80,17 +81,22 @@ Building with React, Flutter & Django | Always learning*
 <div align="center">
 
 ### 💻 Most Used Languages in Projects
-**Python** (92.4%) - Used in 5 repositories: DishRegistry, Collab-Calculator, Kamal-Dhital and 2 more
+**Python** (92.4%) - Used in 5 repositories: Kamal-Dhital, Collab-Calculator, DishRegistry and 2 more
+
 **JavaScript** (3.7%) - Used in 1 repositories: DishRegistry
+
 **Dart** (1.7%) - Used in 1 repositories: health_pal
+
 **C++** (0.9%) - Used in 1 repositories: health_pal
+
 **CMake** (0.7%) - Used in 1 repositories: health_pal
 
+
 ### 📅 Account Information
-- 🗓️ **Joined GitHub:** March 2025
-- 📍 **Location:** Kathmandu, Nepal
-- 🌐 **Website:** Not specified
-- ✉️ **Public Email:** kdhital143@gmail.com
+🗓️ **Joined GitHub:** March 2025
+📍 **Location:** Kathmandu, Nepal
+🌐 **Website:** Not specified
+✉️ **Public Email:** kdhital143@gmail.com
 
 </div>
 
@@ -105,16 +111,6 @@ Building with React, Flutter & Django | Always learning*
 [![Profile Views](https://komarev.com/ghpvc/?username=Kamal-Dhital&color=00D4AA&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Kamal-Dhital)
 
 </div>
-
----
-
-<div align="center">
-
-### 🔄 Auto-Updated Every Hour
-
-**Last Updated:** `Friday, August 08, 2025 at 05:18 UTC`
-
-<sub>This README is automatically generated and updated using GitHub Actions 🤖</sub>
 
 ---
 
