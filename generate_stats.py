@@ -212,30 +212,6 @@ class GitHubStatsGenerator:
 
 </div>
 
-### 💻 Tech Stack Icons
-
-<div align="center">
-
-{self._generate_tech_stack_icons(languages)}
-
-</div>
-
-### 📊 Language Usage Breakdown
-
-<div align="center">
-
-{self._generate_language_bars(top_languages, lang_colors)}
-
-</div>
-
-### 🔧 Development Tools & Frameworks
-
-<div align="center">
-
-{self._generate_tools_frameworks()}
-
-</div>
-
 ---
 
 ## 🏆 GitHub Achievements
