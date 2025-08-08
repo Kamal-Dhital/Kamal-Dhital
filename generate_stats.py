@@ -207,7 +207,8 @@ class GitHubStatsGenerator:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={self.username}&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={self.username}&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=5" alt="Top Languages" />
+
 
 </div>
 
@@ -241,10 +242,10 @@ class GitHubStatsGenerator:
 {self._generate_language_project_info(lang_repos, top_languages[:5])}
 
 ### 📅 Account Information
-- 🗓️ **Joined GitHub:** {datetime.fromisoformat(user['created_at'].replace('Z', '+00:00')).strftime('%B %Y')}
-- 📍 **Location:** {user['location'] or 'Earth 🌍'}
-- 🌐 **Website:** {f"[{user['blog']}]({user['blog']})" if user.get('blog') else 'Not specified'}
-- ✉️ **Public Email:** {user['email'] or 'Not public'}
+🗓️ **Joined GitHub:** {datetime.fromisoformat(user['created_at'].replace('Z', '+00:00')).strftime('%B %Y')}
+📍 **Location:** {user['location'] or 'Earth 🌍'}
+🌐 **Website:** {f"[{user['blog']}]({user['blog']})" if user.get('blog') else 'Not specified'}
+✉️ **Public Email:** {user['email'] or 'Not public'}
 
 </div>
 
@@ -259,16 +260,6 @@ class GitHubStatsGenerator:
 [![Profile Views](https://komarev.com/ghpvc/?username={self.username}&color=00D4AA&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/{self.username})
 
 </div>
-
----
-
-<div align="center">
-
-### 🔄 Auto-Updated Every Hour
-
-**Last Updated:** `{current_time.strftime('%A, %B %d, %Y at %H:%M UTC')}`
-
-<sub>This README is automatically generated and updated using GitHub Actions 🤖</sub>
 
 ---
 
@@ -290,7 +281,7 @@ class GitHubStatsGenerator:
                 repo_list = ', '.join(repos[:3])
                 if repo_count > 3:
                     repo_list += f" and {repo_count - 3} more"
-                info.append(f"**{lang}** ({percentage:.1f}%) - Used in {repo_count} repositories: {repo_list}")
+                info.append(f"**{lang}** ({percentage:.1f}%) - Used in {repo_count} repositories: {repo_list}\n")
 
         return '\n'.join(info) if info else "Language data being processed..."
 
