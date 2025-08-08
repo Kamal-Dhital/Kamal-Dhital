@@ -1,5 +1,5 @@
 <div align="center">
-
+  
 # 👋 Hello, I'm Kamal Dhital!
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+profile!;9%2B+repositories+and+counting...;3+stars+earned+so+far!;Always+learning%2C+always+coding!" alt="Typing SVG" />
@@ -14,7 +14,7 @@ Building with React, Flutter & Django | Always learning*
 ## 🎯 Quick Overview
 
 <div align="center">
-
+  
 <table>
 <tr>
 <td align="center">
@@ -48,23 +48,50 @@ Building with React, Flutter & Django | Always learning*
 ## 🛠️ Technology Stack & Languages
 
 <div align="center">
-<table>
-<tr>
-<td align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamal-Dhital&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-</td>
-<td align="center">
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-</td>
-</tr>
-</table>
-
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamal-Dhital&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
 
 </div>
 
+### 💻 Tech Stack Icons
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+</div>
+
+### 📊 Language Usage Breakdown
+
+<div align="center">
+
+**Python** `92.4%`
+`██████████████████████████████████████████████`
+
+**JavaScript** `3.6%`
+`█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+**Dart** `1.6%`
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+**C++** `0.9%`
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+**CMake** `0.7%`
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+**HTML** `0.4%`
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+**TypeScript** `0.1%`
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+**Swift** `0.1%`
+`▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒`
+
+</div>
 
 ### 🔧 Development Tools & Frameworks
 
@@ -130,9 +157,9 @@ Building with React, Flutter & Django | Always learning*
 <div align="center">
 
 ### 💻 Most Used Languages in Projects
-**Python** (92.4%) - Used in 5 repositories: BizTrack, DishRegistry, Kamal-Dhital and 2 more
+**Python** (92.4%) - Used in 5 repositories: Collab-Calculator, DishRegistry, BizTrack and 2 more
 **JavaScript** (3.6%) - Used in 1 repositories: DishRegistry
-**Dart** (1.7%) - Used in 1 repositories: health_pal
+**Dart** (1.6%) - Used in 1 repositories: health_pal
 **C++** (0.9%) - Used in 1 repositories: health_pal
 **CMake** (0.7%) - Used in 1 repositories: health_pal
 
@@ -162,7 +189,7 @@ Building with React, Flutter & Django | Always learning*
 
 ### 🔄 Auto-Updated Every Hour
 
-**Last Updated:** `Friday, August 08, 2025 at 05:39 UTC`
+**Last Updated:** `Friday, August 08, 2025 at 05:43 UTC`
 
 <sub>This README is automatically generated and updated using GitHub Actions 🤖</sub>
 
