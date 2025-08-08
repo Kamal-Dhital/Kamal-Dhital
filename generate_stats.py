@@ -211,13 +211,13 @@ class GitHubStatsGenerator:
 
 </div>
 
-### 📊 Language Usage Breakdown
+# ### 📊 Language Usage Breakdown
 
-<div align="center">
+# <div align="center">
 
-{self._generate_language_bars(top_languages, lang_colors)}
+# {self._generate_language_bars(top_languages, lang_colors)}
 
-</div>
+# </div>
 
 ---
 
@@ -287,16 +287,16 @@ class GitHubStatsGenerator:
         
         return readme_content.strip()
     
-    def _generate_language_bars(self, top_languages, lang_colors):
-        """Generate visual language usage bars"""
-        bars = []
-        for lang, percentage in top_languages:
-            color = lang_colors.get(lang, '#666666')
-            bar_length = max(int(percentage / 2), 1)  # Scale down for display
-            bar = '█' * bar_length + '░' * max(50 - bar_length, 0)
-            bars.append(f"**{lang}** `{percentage:.1f}%` \n{bar}")
+    # def _generate_language_bars(self, top_languages, lang_colors):
+    #     """Generate visual language usage bars"""
+    #     bars = []
+    #     for lang, percentage in top_languages:
+    #         color = lang_colors.get(lang, '#666666')
+    #         bar_length = max(int(percentage / 2), 1)  # Scale down for display
+    #         bar = '█' * bar_length + '░' * max(50 - bar_length, 0)
+    #         bars.append(f"**{lang}** `{percentage:.1f}%` \n{bar}")
         
-        return '\n\n'.join(bars) if bars else "No language data available"
+    #     return '\n\n'.join(bars) if bars else "No language data available"
     
     def _generate_language_project_info(self, lang_repos, top_languages):
         """Generate language project information"""
