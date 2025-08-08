@@ -157,7 +157,7 @@ Building with React, Flutter & Django | Always learning*
 <div align="center">
 
 ### 💻 Most Used Languages in Projects
-**Python** (92.4%) - Used in 5 repositories: Kamal-Dhital, Collab-Calculator, DishRegistry and 2 more
+**Python** (92.4%) - Used in 5 repositories: Django-Authentication, Collab-Calculator, DishRegistry and 2 more
 **JavaScript** (3.6%) - Used in 1 repositories: DishRegistry
 **Dart** (1.6%) - Used in 1 repositories: health_pal
 **C++** (0.9%) - Used in 1 repositories: health_pal
@@ -189,7 +189,7 @@ Building with React, Flutter & Django | Always learning*
 
 ### 🔄 Auto-Updated Every Hour
 
-**Last Updated:** `Friday, August 08, 2025 at 12:56 UTC`
+**Last Updated:** `Friday, August 08, 2025 at 13:43 UTC`
 
 <sub>This README is automatically generated and updated using GitHub Actions 🤖</sub>
 
