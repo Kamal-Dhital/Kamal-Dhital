@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 # 👋 Hello, I'm Kamal Dhital!
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+profile!;9%2B+repositories+and+counting...;3+stars+earned+so+far!;Always+learning%2C+always+coding!" alt="Typing SVG" />
@@ -14,7 +14,7 @@ Building with React, Flutter & Django | Always learning*
 ## 🎯 Quick Overview
 
 <div align="center">
-  
+
 <table>
 <tr>
 <td align="center">
@@ -53,36 +53,6 @@ Building with React, Flutter & Django | Always learning*
 
 </div>
 
-### 📊 Language Usage Breakdown
-
-<div align="center">
-
-**Python** `92.4%` 
-██████████████████████████████████████████████░░░░
-
-**JavaScript** `3.7%` 
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-**Dart** `1.7%` 
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-**C++** `0.9%` 
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-**CMake** `0.7%` 
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-**HTML** `0.4%` 
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-**TypeScript** `0.1%` 
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-**Swift** `0.1%` 
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-</div>
-
 ---
 
 ## 🏆 GitHub Achievements
@@ -110,7 +80,7 @@ Building with React, Flutter & Django | Always learning*
 <div align="center">
 
 ### 💻 Most Used Languages in Projects
-**Python** (92.4%) - Used in 5 repositories: DishRegistry, BizTrack, Django-Authentication and 2 more
+**Python** (92.4%) - Used in 5 repositories: DishRegistry, Collab-Calculator, Kamal-Dhital and 2 more
 **JavaScript** (3.7%) - Used in 1 repositories: DishRegistry
 **Dart** (1.7%) - Used in 1 repositories: health_pal
 **C++** (0.9%) - Used in 1 repositories: health_pal
@@ -142,7 +112,7 @@ Building with React, Flutter & Django | Always learning*
 
 ### 🔄 Auto-Updated Every Hour
 
-**Last Updated:** `Friday, August 08, 2025 at 05:11 UTC`
+**Last Updated:** `Friday, August 08, 2025 at 05:18 UTC`
 
 <sub>This README is automatically generated and updated using GitHub Actions 🤖</sub>
 
