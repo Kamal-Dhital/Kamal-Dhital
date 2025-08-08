@@ -19,7 +19,7 @@ class GitHubStatsGenerator:
             'Authorization': f'token {self.token}',
             'Accept': 'application/vnd.github.v3+json'
         })
-    
+
     def make_request(self, url, params=None):
         """Make GitHub API request with rate limit handling"""
         try:
@@ -30,18 +30,18 @@ class GitHubStatsGenerator:
                 print(f"Rate limit hit, waiting {wait_time} seconds...")
                 time.sleep(wait_time)
                 response = self.session.get(url, params=params)
-            
+
             response.raise_for_status()
             return response.json()
         except Exception as e:
             print(f"Error making request to {url}: {e}")
             return None
-    
+
     def get_user_info(self):
         """Get user profile information"""
         url = f'https://api.github.com/users/{self.username}'
         return self.make_request(url)
-    
+
     def get_repositories(self):
         """Get all user repositories"""
         repos = []
@@ -54,57 +54,57 @@ class GitHubStatsGenerator:
                 'per_page': 100,
                 'page': page
             }
-            
+
             data = self.make_request(url, params)
             if not data:
                 break
-            
+
             repos.extend(data)
             if len(data) < 100:
                 break
             page += 1
-        
+
         return repos
-    
+
     def get_language_stats(self, repos):
         """Get detailed language statistics"""
         languages = defaultdict(int)
         language_repos = defaultdict(set)
-        
+
         for repo in repos[:30]:  # Limit to avoid rate limits
             if repo['fork']:
                 continue
-                
+
             url = f"https://api.github.com/repos/{self.username}/{repo['name']}/languages"
             lang_data = self.make_request(url)
-            
+
             if lang_data:
                 for lang, bytes_count in lang_data.items():
                     languages[lang] += bytes_count
                     language_repos[lang].add(repo['name'])
-        
+
         return dict(languages), {k: list(v) for k, v in language_repos.items()}
-    
+
     def get_contribution_stats(self):
         """Get contribution statistics for current year"""
         # This would require GraphQL API for detailed contribution data
         # For now, we'll use repository activity as a proxy
         current_year = datetime.now().year
         contributions = 0
-        
+
         # Estimate based on recent commits (simplified)
         url = f'https://api.github.com/users/{self.username}/events'
         events = self.make_request(url)
-        
+
         if events:
             current_year_events = [
-                e for e in events 
+                e for e in events
                 if datetime.fromisoformat(e['created_at'].replace('Z', '+00:00')).year == current_year
             ]
             contributions = len(current_year_events)
-        
+
         return contributions
-    
+
     def calculate_advanced_stats(self, user, repos):
         """Calculate advanced statistics"""
         stats = {
@@ -117,11 +117,11 @@ class GitHubStatsGenerator:
             'followers': user['followers'],
             'following': user['following'],
         }
-        
+
         # Repository type analysis
         original_repos = [r for r in repos if not r['fork']]
         forked_repos = [r for r in repos if r['fork']]
-        
+
         stats.update({
             'original_repos': len(original_repos),
             'forked_repos': len(forked_repos),
@@ -129,21 +129,21 @@ class GitHubStatsGenerator:
             'most_starred_repo': max(repos, key=lambda x: x['stargazers_count'])['name'] if repos else 'None',
             'most_starred_stars': max(repos, key=lambda x: x['stargazers_count'])['stargazers_count'] if repos else 0,
         })
-        
+
         return stats
-    
+
     def generate_modern_readme(self, user, stats, languages, lang_repos):
         """Generate a modern, beautiful README"""
-        
+
         # Calculate language percentages
         total_bytes = sum(languages.values())
         lang_percentages = {
-            lang: (bytes_count / total_bytes * 100) 
+            lang: (bytes_count / total_bytes * 100)
             for lang, bytes_count in languages.items()
         } if total_bytes > 0 else {}
-        
+
         top_languages = sorted(lang_percentages.items(), key=lambda x: x[1], reverse=True)[:8]
-        
+
         # Language color mapping
         lang_colors = {
             'Python': '#3776ab', 'JavaScript': '#f1e05a', 'TypeScript': '#2b7489',
@@ -153,12 +153,12 @@ class GitHubStatsGenerator:
             'Scala': '#c22d40', 'Shell': '#89e051', 'HTML': '#e34c26', 'CSS': '#1572B6',
             'Vue': '#4FC08D', 'React': '#61DAFB', 'Angular': '#DD0031'
         }
-        
+
         current_time = datetime.now(timezone.utc)
-        
+
         readme_content = f"""
 <div align="center">
-  
+
 # 👋 Hello, I'm {user['name'] or user['login']}!
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+profile!;{user['public_repos']}%2B+repositories+and+counting...;{stats['total_stars']}+stars+earned+so+far!;Always+learning%2C+always+coding!" alt="Typing SVG" />
@@ -172,7 +172,7 @@ class GitHubStatsGenerator:
 ## 🎯 Quick Overview
 
 <div align="center">
-  
+
 <table>
 <tr>
 <td align="center">
@@ -210,14 +210,6 @@ class GitHubStatsGenerator:
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={self.username}&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
 
 </div>
-
-# ### 📊 Language Usage Breakdown
-
-# <div align="center">
-
-# {self._generate_language_bars(top_languages, lang_colors)}
-
-# </div>
 
 ---
 
@@ -284,20 +276,10 @@ class GitHubStatsGenerator:
 
 </div>
 """
-        
+
         return readme_content.strip()
-    
-    # def _generate_language_bars(self, top_languages, lang_colors):
-    #     """Generate visual language usage bars"""
-    #     bars = []
-    #     for lang, percentage in top_languages:
-    #         color = lang_colors.get(lang, '#666666')
-    #         bar_length = max(int(percentage / 2), 1)  # Scale down for display
-    #         bar = '█' * bar_length + '░' * max(50 - bar_length, 0)
-    #         bars.append(f"**{lang}** `{percentage:.1f}%` \n{bar}")
-        
-    #     return '\n\n'.join(bars) if bars else "No language data available"
-    
+
+
     def _generate_language_project_info(self, lang_repos, top_languages):
         """Generate language project information"""
         info = []
@@ -309,74 +291,74 @@ class GitHubStatsGenerator:
                 if repo_count > 3:
                     repo_list += f" and {repo_count - 3} more"
                 info.append(f"**{lang}** ({percentage:.1f}%) - Used in {repo_count} repositories: {repo_list}")
-        
+
         return '\n'.join(info) if info else "Language data being processed..."
-    
+
     def _generate_social_links(self, user):
         """Generate social media links"""
         links = []
-        
+
         if user.get('blog'):
             links.append(f"[![Website](<https://img.shields.io/badge/Website-00D4AA?style=for-the-badge&logo=google-chrome&logoColor=white>)]({user['blog']})")
-        
+
         if user.get('twitter_username'):
             links.append(f"[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/{user['twitter_username']})")
-        
+
         if user.get('email'):
             links.append(f"[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:{user['email']})")
-        
+
         links.append(f"[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/{self.username})")
-        
+
         return ' '.join(links)
-    
+
     def run(self):
         """Main execution function"""
         print("🚀 Starting GitHub Profile Stats Generation...")
-        
+
         # Get user information
         print("📊 Fetching user information...")
         user = self.get_user_info()
         if not user:
             print("❌ Failed to fetch user information")
             return False
-        
+
         # Get repositories
         print("📚 Fetching repositories...")
         repos = self.get_repositories()
         if not repos:
             print("❌ Failed to fetch repositories")
             return False
-        
+
         print(f"✅ Found {len(repos)} repositories")
-        
+
         # Get language statistics
         print("🔍 Analyzing language usage...")
         languages, lang_repos = self.get_language_stats(repos)
-        
+
         # Calculate advanced statistics
         print("📈 Calculating advanced statistics...")
         stats = self.calculate_advanced_stats(user, repos)
-        
+
         # Generate README
         print("📝 Generating README content...")
         readme_content = self.generate_modern_readme(user, stats, languages, lang_repos)
-        
+
         # Write to file
         print("💾 Writing README.md...")
         with open('README.md', 'w', encoding='utf-8') as f:
             f.write(readme_content)
-        
+
         print("✅ Profile README generated successfully!")
         print(f"📊 Stats Summary:")
         print(f"   - {stats['total_repos']} repositories")
         print(f"   - {stats['total_stars']} total stars")
         print(f"   - {len(languages)} programming languages")
-        
+
         return True
 
 if __name__ == "__main__":
     generator = GitHubStatsGenerator()
     success = generator.run()
-    
+
     if not success:
         exit(1)
