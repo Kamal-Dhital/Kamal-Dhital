@@ -2,11 +2,12 @@
   
 # 👋 Hello, I'm Kamal Dhital!
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+profile!;1%2B+repositories+and+counting...;0+stars+earned+so+far!;Always+learning%2C+always+coding!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+profile!;9%2B+repositories+and+counting...;3+stars+earned+so+far!;Always+learning%2C+always+coding!" alt="Typing SVG" />
 
 </div>
 
-
+> *CS student | Aspiring LLM Engineer | Full-Stack & Cross-Platform Dev
+Building with React, Flutter & Django | Always learning*
 
 ---
 
@@ -17,10 +18,10 @@
 <table>
 <tr>
 <td align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kamaldhitalofficial&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&icon_color=00D4AA" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Kamal-Dhital&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&icon_color=00D4AA" alt="GitHub Stats" />
 </td>
 <td align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kamaldhitalofficial&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4AA&ring=00D4AA&fire=FF6B6B&currStreakLabel=00D4AA" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kamal-Dhital&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4AA&ring=00D4AA&fire=FF6B6B&currStreakLabel=00D4AA" alt="GitHub Streak" />
 </td>
 </tr>
 </table>
@@ -35,10 +36,10 @@
 
 | 📈 **Metric** | 🔢 **Value** | 📈 **Metric** | 🔢 **Value** |
 |:---:|:---:|:---:|:---:|
-| **🏗️ Total Repositories** | `1` | **⭐ Total Stars** | `0` |
-| **📚 Original Repos** | `1` | **🍴 Total Forks** | `0` |
-| **🔄 Forked Repos** | `0` | **👥 Followers** | `0` |
-| **📦 Repository Size** | `0.0 MB` | **🏆 Most Starred** | `kamaldhitalofficial (0 ⭐)` |
+| **🏗️ Total Repositories** | `9` | **⭐ Total Stars** | `3` |
+| **📚 Original Repos** | `9` | **🍴 Total Forks** | `4` |
+| **🔄 Forked Repos** | `0` | **👥 Followers** | `2` |
+| **📦 Repository Size** | `24.6 MB` | **🏆 Most Starred** | `DishRegistry (1 ⭐)` |
 
 </div>
 
@@ -48,7 +49,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamaldhitalofficial&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamal-Dhital&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4AA&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
 
 </div>
 
@@ -56,8 +57,29 @@
 
 <div align="center">
 
-**Python** `100.0%` 
-██████████████████████████████████████████████████
+**Python** `92.4%` 
+██████████████████████████████████████████████░░░░
+
+**JavaScript** `3.7%` 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+**Dart** `1.7%` 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+**C++** `0.9%` 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+**CMake** `0.7%` 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+**HTML** `0.4%` 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+**TypeScript** `0.1%` 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+**Swift** `0.1%` 
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 </div>
 
@@ -67,7 +89,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=kamaldhitalofficial&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=Kamal-Dhital&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
 
 </div>
 
@@ -77,7 +99,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kamaldhitalofficial&bg_color=0D1117&color=00D4AA&line=00D4AA&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kamal-Dhital&bg_color=0D1117&color=00D4AA&line=00D4AA&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
 
 </div>
 
@@ -88,13 +110,17 @@
 <div align="center">
 
 ### 💻 Most Used Languages in Projects
-**Python** (100.0%) - Used in 1 repositories: kamaldhitalofficial
+**Python** (92.4%) - Used in 5 repositories: DishRegistry, BizTrack, Django-Authentication and 2 more
+**JavaScript** (3.7%) - Used in 1 repositories: DishRegistry
+**Dart** (1.7%) - Used in 1 repositories: health_pal
+**C++** (0.9%) - Used in 1 repositories: health_pal
+**CMake** (0.7%) - Used in 1 repositories: health_pal
 
 ### 📅 Account Information
-- 🗓️ **Joined GitHub:** August 2025
-- 📍 **Location:** Earth 🌍
+- 🗓️ **Joined GitHub:** March 2025
+- 📍 **Location:** Kathmandu, Nepal
 - 🌐 **Website:** Not specified
-- ✉️ **Public Email:** Not public
+- ✉️ **Public Email:** kdhital143@gmail.com
 
 </div>
 
@@ -104,9 +130,9 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kamaldhitalofficial)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kdhital143@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamal-Dhital)
 
-[![Profile Views](https://komarev.com/ghpvc/?username=kamaldhitalofficial&color=00D4AA&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/kamaldhitalofficial)
+[![Profile Views](https://komarev.com/ghpvc/?username=Kamal-Dhital&color=00D4AA&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Kamal-Dhital)
 
 </div>
 
@@ -116,7 +142,7 @@
 
 ### 🔄 Auto-Updated Every Hour
 
-**Last Updated:** `Friday, August 08, 2025 at 04:56 UTC`
+**Last Updated:** `Friday, August 08, 2025 at 05:11 UTC`
 
 <sub>This README is automatically generated and updated using GitHub Actions 🤖</sub>
 
