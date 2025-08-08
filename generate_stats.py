@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 GitHub Profile Stats Generator
 Generates beautiful, dynamic README with comprehensive GitHub statistics
@@ -420,6 +419,20 @@ class GitHubStatsGenerator:
             result.append("")  # Empty line for spacing
         
         return '\n'.join(result)
+    
+    def _generate_language_project_info(self, lang_repos, top_languages):
+        """Generate language project information"""
+        info = []
+        for lang, percentage in top_languages:
+            repos = lang_repos.get(lang, [])
+            repo_count = len(repos)
+            if repo_count > 0:
+                repo_list = ', '.join(repos[:3])
+                if repo_count > 3:
+                    repo_list += f" and {repo_count - 3} more"
+                info.append(f"**{lang}** ({percentage:.1f}%) - Used in {repo_count} repositories: {repo_list}")
+
+        return '\n'.join(info) if info else "Language data being processed..."
     
         """Generate visual language usage bars"""
         bars = []
