@@ -39,7 +39,7 @@ Building with React, Flutter & Django | Always learning*
 | **🏗️ Total Repositories** | `9` | **⭐ Total Stars** | `3` |
 | **📚 Original Repos** | `9` | **🍴 Total Forks** | `4` |
 | **🔄 Forked Repos** | `0` | **👥 Followers** | `2` |
-| **📦 Repository Size** | `24.7 MB` | **🏆 Most Starred** | `DishRegistry (1 ⭐)` |
+| **📦 Repository Size** | `24.6 MB` | **🏆 Most Starred** | `DishRegistry (1 ⭐)` |
 
 </div>
 
@@ -80,7 +80,7 @@ Building with React, Flutter & Django | Always learning*
 <div align="center">
 
 ### 💻 Most Used Languages in Projects
-**Python** (92.4%) - Used in 5 repositories: Django-Authentication, Collab-Calculator, Kamal-Dhital and 2 more
+**Python** (92.4%) - Used in 5 repositories: BizTrack, DishRegistry, Collab-Calculator and 2 more
 **JavaScript** (3.6%) - Used in 1 repositories: DishRegistry
 **Dart** (1.7%) - Used in 1 repositories: health_pal
 **C++** (0.9%) - Used in 1 repositories: health_pal
@@ -112,7 +112,7 @@ Building with React, Flutter & Django | Always learning*
 
 ### 🔄 Auto-Updated Every Hour
 
-**Last Updated:** `Saturday, August 09, 2025 at 17:21 UTC`
+**Last Updated:** `Saturday, August 09, 2025 at 18:35 UTC`
 
 <sub>This README is automatically generated and updated using GitHub Actions 🤖</sub>
 
