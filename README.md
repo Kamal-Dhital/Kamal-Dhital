@@ -37,8 +37,8 @@ Building with React, Flutter & Django | Always learning*
 | 📈 **Metric** | 🔢 **Value** | 📈 **Metric** | 🔢 **Value** |
 |:---:|:---:|:---:|:---:|
 | **🏗️ Total Repositories** | `9` | **⭐ Total Stars** | `3` |
-| **📚 Original Repos** | `8` | **🍴 Total Forks** | `3` |
-| **🔄 Forked Repos** | `1` | **👥 Followers** | `2` |
+| **📚 Original Repos** | `9` | **🍴 Total Forks** | `5` |
+| **🔄 Forked Repos** | `0` | **👥 Followers** | `2` |
 | **📦 Repository Size** | `24.6 MB` | **🏆 Most Starred** | `DishRegistry (1 ⭐)` |
 
 </div>
